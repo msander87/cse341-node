@@ -5,6 +5,10 @@ app.get('/', (req, res) => {
   res.send("Hello Martin");
 });
 
+app.get('/nati', (req, res) => {
+    res.send("Hello Nati");
+  });
+
 const port = 3000;
  
 app.listen(process.env.PORT || port, () => {
